@@ -1,0 +1,525 @@
+.first-header {
+  display: flex;
+  align-items: center;
+  margin: -20px 10px 0px 10px;
+}
+
+.first-header-left  {
+  margin: -10px 40% 0px 0px;
+  cursor: pointer;
+}
+
+.first-header-right {
+  margin-right: -30px;
+}
+
+.first-header-right div {
+  width: 100px;
+}
+
+.first-header-right div img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: -20px 0px 0px 10px;
+  background-color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.header-left div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 35px;
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 5px;
+}
+
+.header-left div i {
+  margin: 0px 10px;
+}
+
+.header-left div input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: gray;
+}
+
+
+
+
+.header-right {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-radius: 5px;
+  padding: 0px 15px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: rgb(22, 177, 22);
+}
+
+.sharp {
+  margin: 0px 10px 0px 0px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(214, 211, 211);
+  margin: 20px -10px 0px -10px;
+}
+
+.heading-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0px 10px 0px 20px;
+  cursor: pointer;
+}
+
+.heading-left div p {
+  font-weight: bold;
+} 
+
+.heading-right div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(10, 83, 10);
+}
+
+.heading-right div div i {
+  margin: 0px 6px;
+}
+
+.save p {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.location-grid {
+  margin: -15px 0px 0px 10px;
+}
+
+.location-grid div {
+  display: flex;
+  align-items: center;
+  color: rgb(49, 49, 248);
+  font-weight: bold;
+}
+
+.dubai-p {
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 5px;
+  padding: 8px 10px 8px 10px;
+}
+
+.dubai-p2 {
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 5px;
+  width: 80px;
+  padding: 8px 0px 8px 10px;
+}
+
+.dubai-p3 {
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 5px;
+  width: 50px;
+  padding: 8px 0px 8px 10px;
+}
+
+.dubai-p4 {
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 5px;
+  width: 120px;
+  padding: 8px 0px 8px 10px;
+}
+
+.dubai {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  flex: 1;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all-div {
+  display: flex;
+  align-items: center;
+  margin: -10px 0px;
+  background-color: white;
+  border-bottom: 1px solid rgb(214, 211, 211);
+}
+
+.all-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 0px 10px;
+}
+
+.furnished {
+  color: rgb(4, 179, 4);
+}
+
+.furnished p {
+  border: 1px solid rgb(4, 179, 4);
+  background-color: rgb(204, 243, 204);
+  padding: 5px 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  cursor: pointer;
+}
+
+.furnished2 p{
+  border-top: 1px solid rgb(214, 211, 211);
+  border-bottom: 1px solid rgb(214, 211, 211);
+  padding: 5px 10px;
+  cursor: pointer;
+  color: rgb(61, 60, 60);
+}
+
+.furnished3 p{
+  border: 1px solid rgb(214, 211, 211);
+  padding: 5px 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  color: rgb(61, 60, 60);
+}
+
+
+.all-right {
+  display: flex;
+  align-items: center;
+  color: rgb(10, 83, 10);
+  font-weight: bold;
+  padding: 0px 0px;
+}
+
+.all-right div i {
+  margin: 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.display-grid {
+  padding-top: 10px;
+  margin: 0px -10px 20px -10px;
+  background-color: rgb(236, 234, 234);
+}
+
+.grid {
+  
+}
+
+.display {
+  display: flex;
+  align-items: ceter;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  padding: 0px 0px;
+}
+
+.display-left {
+  width: 70%;
+  position: relative;
+}
+
+.play {
+  position: absolute;
+  top: 7px;
+  left: 15px;
+}
+
+.play i {
+  color: white;
+  background-color: rgb(66, 66, 66);
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.apartment img {
+  width: 85%;
+  object-fit: cover;
+  cursor: pointer;
+  height: 250px;
+}
+
+.trucheck-div {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  background-color: white;
+  border-radius: 25px;
+  width: 100px;
+  cursor: pointer;;
+}
+
+.trucheck-div div {
+  display: flex;
+  align-items: center;
+  height: 27px;
+}
+
+.trucheck {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.trucheck-div div div i  {
+  margin: 0px 5px;
+}
+
+
+.ru {
+  font-weight: normal;
+}
+
+.tm p {
+  font-size: 8px;
+  color: black;
+  margin-top: -2px;
+  font-weight: bold;
+}
+
+
+
+.display-right {
+  width: 38%;
+  margin: 20px 0px 0px -50px;
+}
+
+
+.aed-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -5px;
+  margin-top: -20px;
+}
+
+.aed-left div div p {
+  font-weight: bold;
+  font-size: 13px;
+
+}
+
+.two {
+  font-size: 19px;
+  margin: 0px 3px;
+}
+
+.bedroom div p{
+  color: rgb(9, 150, 9);
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.estella {
+  font-size: 13px;
+}
+
+.estella2 {
+  font-size: 13px;
+}
+
+
+
+.bed-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bed-div div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.three p {
+  margin: 0px 3px;
+  font-size: 14px;
+}
+
+
+.email-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.email-sub {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 30px;
+  padding: 0px 5px;
+  border-radius: 8px;
+  margin-right: px;
+  cursor: pointer;
+  font-size: 13px;
+  background-color: darkgreen;
+}
+
+.email-sub div i {
+  margin: 4px;
+}
